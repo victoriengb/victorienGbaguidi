@@ -10,7 +10,7 @@
         <a class="nav-link" href="index.jsp">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="cart.jsp">Cart</a>
+        <a class="nav-link" href="cart.jsp">Cart <span class="badge badge-danger">${cartListSession.size()}</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="orders.jsp">Orders</a>
